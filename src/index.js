@@ -37,8 +37,7 @@ class App extends Component {
       only be called once every 300ms
     */
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
-
-
+    
     return (
       <div>
         <SearchBar onSearchTermChange={videoSearch} />

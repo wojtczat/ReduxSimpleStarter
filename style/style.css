@@ -11,7 +11,7 @@
   max-width: 64px;
 }
 
-.video-detail .details {
+.video-detail .details{
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -20,6 +20,7 @@
 
 .list-group-item {
   cursor: pointer;
+  padding: 30em;
 }
 
 .list-group-item:hover {
